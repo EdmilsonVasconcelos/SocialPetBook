@@ -30,7 +30,7 @@ class UserController {
             if (error) return res.status(400)
                 .json({ error: true, code: 101, message: "User not found" });
 
-            return res.status(200)
+            return res.status(201)
                 .json({ user: data });
         });
 
