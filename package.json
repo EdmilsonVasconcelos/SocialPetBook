@@ -1,0 +1,32 @@
+{
+  "name": "socialpetbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "build": "sucrase ./src -d ./outDir --transforms imports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdmilsonVasconcelos/SocialPetBook.git"
+  },
+  "author": "Edmilson Vasconcelos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdmilsonVasconcelos/SocialPetBook/issues"
+  },
+  "homepage": "https://github.com/EdmilsonVasconcelos/SocialPetBook#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.15",
+    "yup": "^0.32.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "sucrase": "^3.16.0"
+  }
+}

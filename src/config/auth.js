@@ -1,0 +1,1 @@
+export default { secret: 'c56793f5acee43db52c50bebb7b58c12', expiresIn: '100y' }
